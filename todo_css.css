@@ -1,0 +1,107 @@
+.mainpage {
+  width: 83.333333%;
+  height: 100%;
+  border-style: solid;
+  border-color: darkblue;
+  padding-bottom: 40px;
+}
+
+.title_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.addBtn {
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.addBtn:hover {
+  text-decoration: underline;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  border-style: solid;
+  border-color: darkblue;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.add_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.add_item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#list {
+  margin-right: 20px;
+}
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+input[type="checkbox"]:after {
+  content: "";
+  background-color: #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-style: solid;
+  border-color: darkblue;
+  margin-top: 1px
+}
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+ul li.checked {
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.close:hover {
+  text-decoration: underline;
+}
